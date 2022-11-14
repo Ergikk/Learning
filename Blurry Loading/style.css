@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('../Blurry Loading/Vonzy.jpg') no-repeat center center/cover;
+    position:absolute;
+    top: -1vh;
+    left: -1vh;
+    width: calc(100vw);
+    height: calc(100vh);
+    z-index: -1;
+    filter: blur(576vh);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: cadetblue;
+    min-width: 0vh;
+}

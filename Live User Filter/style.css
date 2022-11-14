@@ -1,0 +1,92 @@
+ * {
+    box-sizing: border-box;
+ }
+
+ body {
+    background-color: #f8f9fd;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+ }
+
+ .container {
+    border-radius: 1vh;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+ }
+
+ .title {
+   margin: 0;
+ }
+
+ .subtitle {
+   display: inline-block;
+   margin: 5px 0 20px;
+   opacity: 0.8;
+   min-width: 0vh;
+ }
+
+ .header{
+   background-color: #3e57db;
+   color: white;
+   padding: 6vh 6vh;
+ }
+
+ .header input{
+   background-color: rgba(0, 0, 0, 0.3);
+   border: 0;
+   border-radius: 8vh;
+   color: #fff;
+   font-size: 14px;
+   padding: 10px 15px;
+   min-width: 0vh;
+ }
+
+ .header input:focus{
+  outline: none;
+ }
+
+ .user-list {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  max-height: 64vh;
+  overflow-y: auto;
+ }
+
+ .user-list li{
+  display: flex;
+  padding: 20px;
+  min-width: 0vh;
+ }
+
+ .user-list img{
+  border-radius: 50%;
+  object-fit: cover;
+  height: 8vh;
+  width: 8vh;
+ }
+
+ .user-list .user-info {
+  margin-left: 3vh;
+ }
+
+ .user-list .user-info h4{
+  margin: 0 0 10px;
+ } 
+
+ .user-list .user-info p {
+  font-size: 12px;
+  min-width: 0vh;
+ }
+
+ .user-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+ }
+
+ .user-list li.hide {
+  display: none;
+ }
